@@ -31,7 +31,7 @@ const InfoTop = () => {
           </div>
         ))}
       </div>
-      <div className=" mt-10 border-b-2 w-[80%] border-sky-300">
+      <div className=" mt-10 border-b-[1px] w-[80%] border-sky-300">
         <div className="mb-2 flex gap-10">
           <button className="bg-[#FFC69D] px-4 rounded-lg py-1">
             Itinerary
