@@ -3,7 +3,7 @@ import Button from "./reusableComponents/Button";
 
 const Book = () => {
   return (
-    <main className="container-custom mx-auto min-h-screen mt-10">
+    <main className="container-custom mx-auto mt-10 mb-10">
       <div className="w-[80%] mx-auto bg-gradient-to-r from-sky-950 via-sky-800 to-sky-700 text-white rounded-md">
         <div className="px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-evenly items-center py-12 space-y-4 md:space-y-0">

@@ -52,7 +52,7 @@ const InclusionExclusion = () => {
           </div>
         </div>
         <div className="">
-          <div className="flex items-center gap-2 mb-4">
+          <div className="flex items-center gap-2 mb-4 bg-red-50 w-[20%] p-2">
             <Image
               src="/images/important.png"
               alt="important"

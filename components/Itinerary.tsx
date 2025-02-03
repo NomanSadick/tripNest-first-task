@@ -4,6 +4,7 @@ import { ItineraryDayData } from "@/app/data/ItineraryDayData";
 import { useState } from "react";
 import { FiMapPin } from "react-icons/fi";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6"; // ✅ সঠিকভাবে ইমপোর্ট করুন
 
 export default function Itinerary() {
   const [expandedDay, setExpandedDay] = useState<number | null>(0);
@@ -33,7 +34,7 @@ export default function Itinerary() {
           </button>
         </div>
 
-        <div className="space-y-4 ">
+        <div className="space-y-4">
           {ItineraryDayData.map((day, index) => (
             <div
               key={day.day}
@@ -43,10 +44,10 @@ export default function Itinerary() {
                 onClick={() => toggleDay(index)}
                 className="w-full text-left flex items-center justify-between bg-sky-100 pr-4"
               >
-                <div className="flex items-center gap-4 ">
-                  <div className="flex items-center gap-2 min-w-[100px] bg-[#146B83] p-4">
-                    <FiMapPin />
-                    <span className="font-medium text-blue-800 ">
+                <div className="flex items-center gap-4">
+                  <div className="flex items-center gap-2 min-w-[100px] bg-[#146B83] p-2">
+                    <FaLocationDot className="text-white" />
+                    <span className="font-medium text-white">
                       Day {day.day}
                     </span>
                   </div>

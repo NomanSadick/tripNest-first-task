@@ -34,17 +34,16 @@ const Navbar: React.FC = () => {
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
       <div className="container mx-auto px-4 py-2 md:py-4 flex justify-between items-center">
-        {/* Logo */}
+        
 
-        <div className="text-2xl font-bold text-blue-600">
-          {/* <Image
-            src="/images/logo.png" 
-            alt="logo"
-            fill
-            width={24}
-            className="object-cover "
-          /> */}
-          <h1>tripNest</h1>
+        <div className="">
+        <Image
+          src="/images/logo.png"
+          alt="logo"
+          width={1000}
+          height={1000}
+          className="object-cover w-[100%]"
+        />
         </div>
 
         {/* Menu */}
