@@ -1,3 +1,4 @@
+import Book from "@/components/Book";
 import HeroSection from "@/components/HeroSection";
 import InfoSection from "@/components/InfoSection";
 import Navbar from "@/components/Navbar";
@@ -9,6 +10,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <InfoSection />
+      <Book />
     </div>
   );
 }

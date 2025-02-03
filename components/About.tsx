@@ -3,10 +3,10 @@ import React from "react";
 const About = () => {
   return (
     <div className="mt-6 w-[80%]">
-      <h1 className="text-4xl md:text-4xl font-medium text-sky-900 mb-4">
+      <h1 className="text-4xl md:text-4xl font-medium text-[#146B83] mb-4">
         About this Package
       </h1>
-      <p className=" font-semibold text-sm text-justify">
+      <p className=" font-normal text-[16px] text-justify text-[#141414] font-[Signika Negative]">
         Discover the serene beauty of Phuket with our package. This thoughtfully
         curated journey offers a perfect blend of relaxation and adventure,
         ensuring you experience the best of what Phuket has to offer. From the

@@ -51,8 +51,8 @@ const NativeForm = () => {
   };
 
   return (
-    <div className="w-full flex justify-center items-center bg-white border mt-10">
-      <div className="w-[85%] mx-auto">
+    <div className="w-full flex justify-center items-center bg-white rounded-xl border mt-10">
+      <div className="w-[85%] mx-auto space-y-4">
         <p className="mt-4 mb-4 text-[#146B83] text-2xl font-semibold">Customize Your Trip</p>
         <form
           onSubmit={handleSubmit(handleOnSubmit)}
@@ -163,7 +163,7 @@ const NativeForm = () => {
           </div>
 
           {/* Submit Button */}
-          <div className="w-full flex justify-center">
+          <div className="w-full flex justify-center pb-4">
             <button className=" text-[#ff6b00] px-8 py-2 rounded-lg border-2 border-[#ff6b00] w-full">
               Get Customized Trip
             </button>
