@@ -7,7 +7,7 @@ export const ReviewsData: ReviewInfo[] = [
       location: "Thailand",
       image: "/images/exclusive-image-1.png",
       review:
-        "I was initially overwhelmed by the complexity of the visa application process, but Tripnest made it a breeze.",
+        "I was initially overwhelmed by the complexity of the visa application process, but Tripnest made it a breeze. Their team was incredibly knowledgeable and supportive, guiding me through every step. From document preparation to scheduling appointments, they handled everything with efficiency and professionalism. I received my visa on time and without any issues. Highly recommend!",
       rating: 5,
     },
     {
@@ -16,7 +16,7 @@ export const ReviewsData: ReviewInfo[] = [
       location: "Malaysia",
       image: "/images/exclusive-image-1.png",
       review:
-        "I had an amazing experience with Tripnest! Their seamless process and expert guidance made my travel journey stress-free.",
+        "I was initially overwhelmed by the complexity of the visa application process, but Tripnest made it a breeze. Their team was incredibly knowledgeable and supportive, guiding me through every step. From document preparation to scheduling appointments, they handled.",
       rating: 5,
     },
     {
@@ -25,7 +25,7 @@ export const ReviewsData: ReviewInfo[] = [
       location: "Canada",
       image: "/images/exclusive-image-1.png",
       review:
-        "Highly recommended! Tripnest took care of everything, and I received my visa without any hassle.",
+        "I was initially overwhelmed by the complexity of the visa application process, but Tripnest made it a breeze. Their team was incredibly knowledgeable and supportive, guiding me through every step. From document preparation to scheduling appointments, they handled.",
       rating: 5,
     },
     {
@@ -34,7 +34,7 @@ export const ReviewsData: ReviewInfo[] = [
       location: "Australia",
       image: "/images/exclusive-image-1.png",
       review:
-        "I had an amazing experience with Tripnest! Their seamless process and expert guidance made my travel journey stress-free.",
+        "I was initially overwhelmed by the complexity of the visa application process, but Tripnest made it a breeze. Their team was incredibly knowledgeable and supportive, guiding me through every step. From document preparation to scheduling appointments, they handled everything with efficiency and professionalism. I received my visa on time and without any issues. Highly recommend!",
       rating: 5,
     },
   ];

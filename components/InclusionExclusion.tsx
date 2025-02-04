@@ -24,7 +24,7 @@ const InclusionExclusion = () => {
                     height={20}
                     className="w-4 h-4"
                   />
-                  <p className="text-gray-700 text-sm md:text-base">
+                  <p className="text-gray-700 text-sm">
                     {item.title}
                   </p>
                 </div>
@@ -45,7 +45,7 @@ const InclusionExclusion = () => {
                     height={20}
                     className="w-4 h-4"
                   />
-                  <p className="text-gray-700 text-sm md:text-base">
+                  <p className="text-gray-700 text-sm">
                     {item.title}
                   </p>
                 </div>
@@ -61,11 +61,11 @@ const InclusionExclusion = () => {
               width={24}
               height={24}
             />
-            <h2 className="font-semibold text-amber-700 text-sm md:text-base">
+            <h2 className="font-semibold text-amber-700 text-sm">
               Important Note
             </h2>
           </div>
-          <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-gray-700">
+          <ul className="list-disc pl-5 space-y-2 text-sm text-gray-700">
             {ImportantNoteData.map((note, index) => (
               <li key={index}>{note.title}</li>
             ))}

@@ -42,7 +42,7 @@ const ReviewSlider = () => {
 
         <Slider {...settings}>
           {ReviewsData.map((review) => (
-            <div key={review.id} className="p-4">
+            <div key={review.id} className="p-2 ">
               <div className="bg-white shadow-md rounded-lg p-6 border border-gray-200">
                 <FaQuoteLeft className="text-gray-100 text-4xl" />
                 <div className="flex space-x-1 mb-2">
@@ -66,7 +66,7 @@ const ReviewSlider = () => {
                     className="w-12 h-12 rounded-md border-2 border-blue-500"
                   />
                   <div className="ml-4">
-                    <h3 className="font-bold text-lg">{review.name}</h3>
+                    <h3 className="font-bold text-sm">{review.name}</h3>
                     <p className="text-gray-500 text-sm">{review.location}</p>
                   </div>
                 </div>
