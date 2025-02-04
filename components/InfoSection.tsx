@@ -11,7 +11,7 @@ import Itinerary from "./Itinerary";
 const InfoSection = () => {
   return (
     <div className="container-custom bg-white w-full">
-      <div className="w-[100%]">
+      <div className="w-[100%] mt-6">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
           <div className="lg:col-span-4 space-y-6">
             <InfoTop />
