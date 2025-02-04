@@ -4,8 +4,8 @@ import Image from "next/image";
 const HeroSection = () => {
   return (
     <main className="container-custom">
-      <section className="pt-16">
-        <div className=" py-12">
+      <section className="pt-6">
+        <div className="">
           <div className="mb-8">
             <h1 className="text-4xl md:text-5xl font-medium text-[#146B83] mb-4 ">
               Thailand - NestAway In Phuket

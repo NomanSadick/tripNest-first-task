@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import ToggleSwitch from "./reusableComponents/ToggleSwitch";
 
 const Navbar: React.FC = () => {
   const navItems = [
@@ -32,8 +33,8 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
-      <div className="container mx-auto px-4 py-2 md:py-4 flex justify-between items-center">
+    <nav className=" w-full bg-white shadow-md z-50">
+      <div className="container mx-auto px-6 py-2 md:py-4 flex justify-between items-center">
         
 
         <div className="">
@@ -79,6 +80,7 @@ const Navbar: React.FC = () => {
                   </svg>
                 )}
               </a>
+              
 
               {/* Dropdown Menu */}
               {item.dropdown && activeDropdown === item.label && (
@@ -94,9 +96,14 @@ const Navbar: React.FC = () => {
                   ))}
                 </div>
               )}
+              
             </div>
+            
           ))}
+           <ToggleSwitch />
         </div>
+       
+       
 
         {/* Mobile Menu Button */}
         <div className="md:hidden">
