@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import InfoSection from "@/components/InfoSection";
 import Navbar from "@/components/Navbar";
-
+import ReviewSlider from "@/components/ReviewSlider";
 
 export default function Home() {
   return (
@@ -11,8 +11,10 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <InfoSection />
+      <ReviewSlider />
       <Book />
       <Footer />
+      
     </div>
   );
 }

@@ -2,9 +2,8 @@
 
 import { ItineraryDayData } from "@/app/data/ItineraryDayData";
 import { useState } from "react";
-import { FiMapPin } from "react-icons/fi";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
-import { FaLocationDot } from "react-icons/fa6"; // ✅ সঠিকভাবে ইমপোর্ট করুন
+import { FaLocationDot } from "react-icons/fa6"; 
 
 export default function Itinerary() {
   const [expandedDay, setExpandedDay] = useState<number | null>(0);
@@ -21,7 +20,7 @@ export default function Itinerary() {
 
   return (
     <div className="w-full flex items-center mt-10">
-      <div className="w-[80%]">
+      <div className="w-full md:w-[80%]">
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-4xl md:text-4xl font-medium text-[#146B83]">
             Itinerary
@@ -42,7 +41,7 @@ export default function Itinerary() {
             >
               <button
                 onClick={() => toggleDay(index)}
-                className="w-full text-left flex items-center justify-between bg-sky-100 pr-4"
+                className="w-full text-left flex items-center justify-between bg-sky-100 pr-2 md:pr-4"
               >
                 <div className="flex items-center gap-4">
                   <div className="flex items-center gap-2 min-w-[100px] bg-[#146B83] p-2">

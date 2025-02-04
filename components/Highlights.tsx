@@ -4,26 +4,29 @@ import React from "react";
 
 const Highlights = () => {
   return (
-    <div className="w-[80%] py-8">
-      <h1 className="text-[#146B83] text-4xl font-medium mb-6">Highlights</h1>
+    <div className="w-full px-4 md:px-0 lg:w-[80%] py-8">
+      <h1 className="text-[#146B83] text-2xl md:text-3xl lg:text-4xl font-medium mb-6">
+        Highlights
+      </h1>
       <div className="space-y-4">
         {HighlightsData.map((highlight) => (
           <div
             key={highlight.title}
-            className="flex content-center items-center gap-2 text-sm"
+            className="flex items-start gap-3 text-sm md:text-base"
           >
             <Image
               src={highlight.image}
               alt={highlight.title}
               width={16}
               height={16}
+              className=""
             />
 
-            <div>
-              <span className="text-[#146B83] font-semibold text-[16px] flex-start">
+            <div className="flex flex-col">
+              <span className="text-[#146B83] font-semibold text-sm md:text-base">
                 {highlight.title}:
               </span>
-              <span className="text-[#141414] text-[16px] font-medium flex-start">
+              <span className="text-[#141414] text-sm md:text-base font-medium">
                 {highlight.description}
               </span>
             </div>

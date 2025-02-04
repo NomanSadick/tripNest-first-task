@@ -12,8 +12,8 @@ const InfoSection = () => {
   return (
     <div className="container-custom bg-white w-full">
       <div className="w-[100%]">
-        <div className="grid grid-cols-5">
-          <div className="col-span-4">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
+          <div className="lg:col-span-4 space-y-6">
             <InfoTop />
             <About />
             <Highlights />
@@ -21,7 +21,7 @@ const InfoSection = () => {
             <Itinerary />
           </div>
 
-          <div className="col-span-1">
+          <div className="lg:col-span-1 space-y-6">
             <InfoTopRight />
             <TravelForm />
             <ExclusivePackages />

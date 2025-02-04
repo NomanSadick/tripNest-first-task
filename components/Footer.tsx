@@ -1,104 +1,163 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaYoutube,
+} from "react-icons/fa";
+import { MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
+import { FaChevronUp } from "react-icons/fa";
 
-const Footer = () => {
+export default function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
-    <footer className="w-full bg-[#00232D] pt-12 pb-6">
-      <div>
-        <div className="grid grid-cols-1 md:grid-cols-4 text-white justify-items-center">
-          <div className="flex flex-col gap-4 ml-60">
+    <footer className="bg-[#042D3D] text-white py-10 px-6 md:px-10 lg:px-16 border-t border-gray-600 w-full">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+          {/* Logo & Description */}
+          <div>
             <Image
               src="/images/logo.png"
               alt="logo"
-              width={1000}
-              height={1000}
-              className="object-cover w-[30%]"
+              width={500}
+              height={300}
+              className="object-cover w-[50%] sm:w-[40%] md:w-[60%]"
             />
-            <div className="flex flex-col ">
-              <h3 className="text-lg font-semibold">Travel, your way!</h3>
-              <p className="max-w-sm text-gray-300">
-                TripNest simplifies travel planning, turning trips into
-                personalized experiences. Founded by travel enthusiasts, we aim
-                to make every journey enjoyable and stress-free for Bangladeshi
-                tourists.
-              </p>
-            </div>
+            <span className="text-sm mt-2 block">Travel, your way!</span>
+            <p className="text-sm text-gray-300 leading-relaxed">
+              TripNest simplifies travel planning, turning trips into
+              personalized experiences. Founded by travel enthusiasts, we aim to
+              make every journey enjoyable and stress-free for Bangladeshi
+              tourists.
+            </p>
           </div>
 
+          {/* Our Company */}
           <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-              Resources
-            </h2>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium">
-              <li className="mb-4">
-                <Link href="https://flowbite.com/" className="hover:underline">
-                  Flowbite
+            <h3 className="text-lg font-semibold mb-4">Our Company</h3>
+            <ul className="space-y-2 text-gray-300">
+              <li>
+                <Link href="#" className="hover:text-white transition-colors">
+                  About Us
                 </Link>
               </li>
               <li>
-                <Link
-                  href="https://tailwindcss.com/"
-                  className="hover:underline"
-                >
-                  Tailwind CSS
+                <Link href="#" className="hover:text-white transition-colors">
+                  FAQs
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-white transition-colors">
+                  Contact us
                 </Link>
               </li>
             </ul>
           </div>
+
+        
           <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-              Resources
-            </h2>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium">
-              <li className="mb-4">
-                <Link href="https://flowbite.com/" className="hover:underline">
-                  Flowbite
+            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <ul className="space-y-2 text-gray-300">
+              <li>
+                <Link href="#" className="hover:text-white transition-colors">
+                  All Packages
                 </Link>
               </li>
               <li>
-                <Link
-                  href="https://tailwindcss.com/"
-                  className="hover:underline"
-                >
-                  Tailwind CSS
+                <Link href="#" className="hover:text-white transition-colors">
+                  Visa Support
                 </Link>
               </li>
             </ul>
           </div>
-          <div className="justify-self-start">
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-              Resources
-            </h2>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium">
-              <li className="mb-4">
-                <Link href="https://flowbite.com/" className="hover:underline">
-                  Flowbite
-                </Link>
+
+         
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Stay Connected</h3>
+            <ul className="space-y-3 text-gray-300 text-sm">
+              <li className="flex items-start gap-2">
+                <MdLocationOn className="flex-shrink-0 mt-1" />
+                <span>
+                  House 20, Road 32 (Old)/41 (New), Dhanmondi, Dhaka-1209
+                </span>
               </li>
-              <li>
-                <Link
-                  href="https://tailwindcss.com/"
-                  className="hover:underline"
-                >
-                  Tailwind CSS
-                </Link>
+              <li className="flex items-start gap-2">
+                <MdEmail className="flex-shrink-0 mt-1" />
+                <span>support@tripnest.net</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <MdPhone className="flex-shrink-0 mt-1" />
+                <span>09666-771109</span>
               </li>
             </ul>
+            <div className="flex gap-4 mt-6">
+              <Link
+                href="#"
+                className="bg-orange-400 p-2 rounded-full hover:bg-orange-500 transition-colors"
+              >
+                <FaFacebookF size={16} className="text-white" />
+              </Link>
+              <Link
+                href="#"
+                className="bg-orange-400 p-2 rounded-full hover:bg-orange-500 transition-colors"
+              >
+                <FaInstagram size={16} className="text-white" />
+              </Link>
+              <Link
+                href="#"
+                className="bg-orange-400 p-2 rounded-full hover:bg-orange-500 transition-colors"
+              >
+                <FaLinkedinIn size={16} className="text-white" />
+              </Link>
+              <Link
+                href="#"
+                className="bg-orange-400 p-2 rounded-full hover:bg-orange-500 transition-colors"
+              >
+                <FaYoutube size={16} className="text-white" />
+              </Link>
+            </div>
           </div>
         </div>
-        <div className="mt-10">
-          <Image
+
+        <div className="mt-12 bg-white rounded-lg p-4 ">
+           <Image
             src="/images/footer.png"
-            alt="logo"
-            width={1000}
-            height={1000}
-            className="object-cover w-[75%] mx-auto"
+            alt="footer"
+            width={500}
+            height={500}
+            className="object-cover mx-auto w-full h-auto"
           />
+        </div>
+
+        <div className="mt-8 pt-4 flex flex-col md:flex-row items-center justify-between text-gray-400 text-sm">
+          <p>&copy; 2025 All Rights Reserved by TripNest Limited</p>
+          <div className="flex items-center">
+            <div className="flex gap-6">
+              <Link href="#" className="hover:text-white transition-colors">
+                Privacy Policy
+              </Link>
+              <Link href="#" className="hover:text-white transition-colors">
+                Terms and Conditions
+              </Link>
+              <Link href="#" className="hover:text-white transition-colors">
+                Refunds and Returns
+              </Link>
+            </div>
+            <button
+              onClick={scrollToTop}
+              className="ml-8 bg-white hover:bg-gray-100 text-gray-600 p-2 rounded-full transition-all duration-300 hover:scale-110"
+            >
+              <FaChevronUp className="w-4 h-4" />
+            </button>
+          </div>
         </div>
       </div>
     </footer>
   );
-};
-
-export default Footer;
+}
