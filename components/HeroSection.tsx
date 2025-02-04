@@ -7,7 +7,7 @@ const HeroSection = () => {
       <section className="pt-16">
         <div className=" py-12">
           <div className="mb-8">
-            <h1 className="text-4xl md:text-5xl font-medium text-[#146B83] mb-4">
+            <h1 className="text-4xl md:text-5xl font-medium text-[#146B83] mb-4 ">
               Thailand - NestAway In Phuket
             </h1>
           </div>

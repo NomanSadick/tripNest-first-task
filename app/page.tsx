@@ -7,7 +7,7 @@ import ReviewSlider from "@/components/ReviewSlider";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="font-signika">
       <Navbar />
       <HeroSection />
       <InfoSection />

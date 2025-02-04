@@ -34,7 +34,7 @@ export const ReviewsData: ReviewInfo[] = [
       location: "Australia",
       image: "/images/exclusive-image-1.png",
       review:
-        "Super fast and reliable service! I will definitely use Tripnest again for my future travels.",
+        "I had an amazing experience with Tripnest! Their seamless process and expert guidance made my travel journey stress-free.",
       rating: 5,
     },
   ];
