@@ -31,9 +31,9 @@ const InfoTop = () => {
           </div>
         ))}
       </div>
-      <div className=" mt-10 border-b-[1px] w-[80%] border-sky-300/60 text-[14px]">
-        <div className="mb-2 flex gap-10">
-          <button className="bg-[#FFC69D] px-4 rounded-lg py-1">
+      <div className=" mt-10 border-b-[1px] w-full md:w-[80%] border-sky-300/60 text-[12px] md:text-[14px]">
+        <div className="mb-2 flex gap-2 md:gap-10">
+          <button className="bg-[#FFC69D] px-1 md:px-4 rounded-lg py-1">
             Itinerary
           </button>
           <button className="bg-[#FFC69D] px-4 rounded-lg py-1">
