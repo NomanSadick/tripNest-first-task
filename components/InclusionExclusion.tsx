@@ -8,7 +8,7 @@ const InclusionExclusion = () => {
   return (
     <div className="w-full flex items-center px-4 md:px-0">
       <div className=" w-[80%] space-y-8">
-        <h1 className="text-2xl md:text-3xl lg:text-4xl font-medium text-[#146B83]">
+        <h1 className="text-3xl md:text-[32px] font-medium text-[#146B83]">
           Inclusion & Exclusion
         </h1>
 

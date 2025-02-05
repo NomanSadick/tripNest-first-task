@@ -125,9 +125,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 bg-white rounded-lg p-4 ">
+        <div className="mt-12 bg-white rounded-lg p-1 ">
            <Image
-            src="/images/footer.png"
+            src="/images/footer-1.svg"
             alt="footer"
             width={500}
             height={500}

@@ -4,8 +4,8 @@ import React from "react";
 
 const Highlights = () => {
   return (
-    <div className="w-full px-4 md:px-0 lg:w-[80%] py-8">
-      <h1 className="text-[#146B83] text-2xl md:text-3xl lg:text-4xl font-medium mb-6">Highlights</h1>
+    <div className="w-full px-4 md:px-0 lg:w-[80%] py-4">
+      <h1 className="text-[#146B83] text-3xl md:text-[32px] font-medium mb-6">Highlights</h1>
       <div className="space-y-4">
         {HighlightsData.map((highlight) => (
           <div
@@ -20,10 +20,10 @@ const Highlights = () => {
             />
 
             <div>
-              <span className="text-[#146B83] font-semibold text-[16px] flex-start">
+              <span className="text-[#146B83] font-normal text-[16px] flex-start">
                 {highlight.title}:
               </span>
-              <span className="text-[#141414] text-[16px] font-medium flex-start">
+              <span className="text-[#141414] text-[16px] font-normal flex-start">
                 {highlight.description}
               </span>
             </div>

@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="mt-6 w-full lg:w-[80%] px-4 md:px-0">
-      <h1 className="text-4xl md:text-4xl font-medium text-[#146B83] mb-4">
+      <h1 className="text-3xl md:text-[32px] font-medium text-[#146B83] mb-4">
         About this Package
       </h1>
       <p className=" text-base text-justify font-normal text-[#141414] ">
