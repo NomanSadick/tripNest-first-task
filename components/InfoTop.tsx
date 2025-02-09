@@ -5,7 +5,7 @@ import React from "react";
 const InfoTop = () => {
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-[60%]">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 w-[100%] md:w-[60%]">
         {InfoTopData.map((info, index) => (
           <div key={index} className="flex items-center">
             <div className="w-12 h-12 flex justify-between items-center bg-sky-100/50 rounded-sm ">
@@ -32,7 +32,7 @@ const InfoTop = () => {
         ))}
       </div>
       <div className=" mt-10 border-b-[1px] w-full md:w-[80%] border-sky-300/60 text-[12px] md:text-[14px]">
-        <div className="mb-2 flex gap-2 md:gap-10">
+        <div className="mb-2 flex gap-4 md:gap-10">
           <button className="bg-[#FFC69D] px-1 md:px-4 rounded-lg py-1">
             Itinerary
           </button>

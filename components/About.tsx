@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="mt-8 w-full lg:w-[80%] px-4 md:px-0">
+    <div className="mt-8 w-full lg:w-[80%] px-0 md:px-0">
       <h1 className="text-3xl md:text-[32px] font-medium text-[#146B83] mb-4">
         About this Package
       </h1>

@@ -20,7 +20,7 @@ export default function Itinerary() {
 
   return (
     <div className="w-full flex items-center mt-10">
-      <div className="w-full md:w-[80%]">
+      <div className="w-full lg:w-[80%]">
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-3xl md:text-[32px] font-medium text-[#146B83]">
             Itinerary

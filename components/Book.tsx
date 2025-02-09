@@ -4,8 +4,8 @@ import Button from "./reusableComponents/Button";
 const Book = () => {
   return (
     <main className="container-custom mx-auto mt-10 mb-10">
-      <div className="w-[80%] mx-auto bg-gradient-to-r from-sky-950 via-sky-800 to-sky-700 text-white rounded-md">
-        <div className="px-4 sm:px-6 lg:px-8">
+      <div className="w-full lg:w-[80%] mx-auto bg-gradient-to-r from-sky-950 via-sky-800 to-sky-700 text-white rounded-md">
+        <div className="px-4 sm:px-6 md:px-0 lg:px-8">
           <div className="flex flex-col md:flex-row justify-evenly items-center py-12 space-y-4 md:space-y-0">
             <div className="text-center space-y-2">
               <h1 className="text-4xl md:text-5xl font-bold">Thailand</h1>
