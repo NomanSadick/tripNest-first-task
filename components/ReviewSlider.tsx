@@ -34,8 +34,8 @@ const ReviewSlider = () => {
   };
 
   return (
-    <div className="w-full py-12 px-4">
-      <div className="w-[80%] mx-auto">
+    <div className="w-full py-12 px-2 md:px-4">
+      <div className="w-[100%] md:w-[80%] mx-auto">
         <h2 className="text-4xl md:text-5xl font-medium text-center mb-6">
           Customer <span className="text-[#146B83]">Review</span>
         </h2>
