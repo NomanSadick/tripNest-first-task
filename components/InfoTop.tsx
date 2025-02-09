@@ -22,7 +22,7 @@ const InfoTop = () => {
               <span className="text-gray-600 text-[12px]">{info.title}</span>
               <h3
                 className={
-                  info.highlight ? "text-[#212121] font-semibold text-[16px]" : "text-gray-800"
+                  info.highlight ? "text-[#212121] font-semibold text-[16px]" : "text-gray-800 "
                 }
               >
                 {info.value}
