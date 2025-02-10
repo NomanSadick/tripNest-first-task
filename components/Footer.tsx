@@ -27,10 +27,10 @@ export default function Footer() {
               alt="logo"
               width={500}
               height={300}
-              className="object-cover w-[50%] sm:w-[40%] md:w-[60%]"
+              className="object-cover w-[50%] sm:w-[40%] md:w-[40%]"
             />
             <span className="text-sm mt-2 block">Travel, your way!</span>
-            <p className="text-sm text-gray-300 leading-relaxed w-[100%] text-justify">
+            <p className="text-sm text-gray-300 leading-relaxed w-[80%] text-justify">
               TripNest simplifies travel planning, turning trips into
               personalized experiences. Founded by travel enthusiasts, we aim to
               make every journey enjoyable and stress-free for Bangladeshi
@@ -39,7 +39,7 @@ export default function Footer() {
           </div>
 
           {/* Our Company */}
-          <div className="flex justify-between md:justify-evenly ">
+          <div className="grid grid-cols-2">
             <div>
               <h3 className="text-lg font-semibold mb-4">Our Company</h3>
               <ul className="space-y-2 text-gray-300">
@@ -61,7 +61,7 @@ export default function Footer() {
               </ul>
             </div>
 
-            <div>
+            <div className="justify-self-end md:justify-self-center">
               <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
               <ul className="space-y-2 text-gray-300">
                 <li>
@@ -78,12 +78,12 @@ export default function Footer() {
             </div>
           </div>
 
-          <div>
+          <div className="pl-0 md:pl-8">
             <h3 className="text-lg font-semibold mb-4">Stay Connected</h3>
             <ul className="space-y-3 text-gray-300 text-sm">
               <li className="flex items-start gap-2">
                 <MdLocationOn className="flex-shrink-0 mt-1" />
-                <span>
+                <span className="w-[80%]">
                   House 20, Road 32 (Old)/41 (New), Dhanmondi, Dhaka-1209
                 </span>
               </li>
@@ -135,15 +135,15 @@ export default function Footer() {
           />
         </div>
 
-        <div className="mt-8 pt-4 flex flex-col md:flex-row items-center justify-between text-gray-400 text-sm">
-          <p>&copy; 2025 All Rights Reserved by TripNest Limited</p>
+        <div className="mt-8 pt-4 flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between text-gray-400 text-sm">
+          <p>&copy; 2025 All Rights Reserved</p>
           <div className="flex items-center">
             <div className="flex gap-6">
               <Link href="#" className="hover:text-white transition-colors">
                 Privacy Policy
               </Link>
               <Link href="#" className="hover:text-white transition-colors">
-                Terms and Conditions
+                Terms of use
               </Link>
               <Link href="#" className="hover:text-white transition-colors">
                 Refunds and Returns
@@ -151,7 +151,7 @@ export default function Footer() {
             </div>
             <button
               onClick={scrollToTop}
-              className="ml-8 bg-white hover:bg-gray-100 text-gray-600 p-2 rounded-full transition-all duration-300 hover:scale-110"
+              className="ml-8 bg-white hover:bg-gray-100 text-gray-600 p-2 rounded-full transition-all duration-300 hover:scale-110 "
             >
               <FaChevronUp className="w-4 h-4" />
             </button>

@@ -64,7 +64,7 @@ export default function Itinerary() {
                   expandedDay === index || isAllExpanded ? "block" : "hidden"
                 }`}
               >
-                <div className="pl-[1%] pr-4 mt-4">
+                <div className="pl-[1%] pr-2 md:pr-4 mt-2 md:mt-4">
                   <p className="text-gray-600 leading-relaxed text-sm md:text-base">{day.content}</p>
                 </div>
               </div>
