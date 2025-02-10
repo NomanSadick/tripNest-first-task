@@ -35,16 +35,14 @@ const Navbar: React.FC = () => {
   return (
     <nav className=" w-full bg-white shadow-md z-50">
       <div className="container mx-auto px-6 py-2 md:py-4 flex justify-between items-center">
-        
-
         <div className="">
-        <Image
-          src="/images/logo.png"
-          alt="logo"
-          width={1000}
-          height={1000}
-          className="object-cover w-[100%]"
-        />
+          <Image
+            src="/images/logo.png"
+            alt="logo"
+            width={1000}
+            height={1000}
+            className="object-cover w-[100%]"
+          />
         </div>
 
         {/* Menu */}
@@ -80,7 +78,6 @@ const Navbar: React.FC = () => {
                   </svg>
                 )}
               </a>
-              
 
               {/* Dropdown Menu */}
               {item.dropdown && activeDropdown === item.label && (
@@ -96,30 +93,27 @@ const Navbar: React.FC = () => {
                   ))}
                 </div>
               )}
-              
             </div>
-            
           ))}
-           <ToggleSwitch />
+          <ToggleSwitch />
         </div>
-       
-       
 
         {/* Mobile Menu Button */}
         <div className="md:hidden">
           <button className="text-gray-600 hover:text-blue-600 focus:outline-none">
             <svg
+              className="w-5 h-5"
+              aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
               fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={2}
+              viewBox="0 0 17 14"
             >
               <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M4 6h16M4 12h16m-7 6h7"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
               />
             </svg>
           </button>

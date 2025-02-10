@@ -19,7 +19,7 @@ export default function Itinerary() {
   };
 
   return (
-    <div className="w-full flex items-center mt-10">
+    <div className="w-full flex items-center mt-8 md:mt-10">
       <div className="w-full lg:w-[80%]">
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-3xl md:text-[32px] font-medium text-[#146B83]">
@@ -43,14 +43,14 @@ export default function Itinerary() {
                 onClick={() => toggleDay(index)}
                 className="w-full text-left flex items-center justify-between bg-sky-100 pr-2 md:pr-4"
               >
-                <div className="flex items-center gap-4">
-                  <div className="flex items-center gap-2 min-w-[100px] bg-[#146B83] p-2">
+                <div className="flex items-center gap-4 text-sm md:text-base">
+                  <div className="flex items-center gap-2 min-w-[100px] bg-[#146B83] p-2 text-sm md:text-base">
                     <FaLocationDot className="text-white" />
                     <span className="font-medium text-white">
                       Day {day.day}
                     </span>
                   </div>
-                  <h2 className="font-medium text-gray-900">{day.title}</h2>
+                  <h2 className="font-medium text-gray-900 text-sm md:text-base">{day.title}</h2>
                 </div>
                 {expandedDay === index || isAllExpanded ? (
                   <FaChevronUp className="w-5 h-5 text-orange-500" />
@@ -65,7 +65,7 @@ export default function Itinerary() {
                 }`}
               >
                 <div className="pl-[1%] pr-4">
-                  <p className="text-gray-600 leading-relaxed">{day.content}</p>
+                  <p className="text-gray-600 leading-relaxed text-sm md:text-base">{day.content}</p>
                 </div>
               </div>
             </div>

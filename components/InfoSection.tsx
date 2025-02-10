@@ -1,12 +1,9 @@
 import React from "react";
-import InfoTop from "./InfoTop";
 import InfoTopRight from "./InfoTopRight";
-import About from "./About";
 import TravelForm from "./TravelForm";
-import Highlights from "./Highlights";
-import InclusionExclusion from "./InclusionExclusion";
 import ExclusivePackages from "./ExclusivePackages";
 import Itinerary from "./Itinerary";
+import InfoTopLeft from "@/app/data/InfoTopLeft";
 
 const InfoSection = () => {
   return (
@@ -14,13 +11,11 @@ const InfoSection = () => {
       <div className="w-[100%] mt-6">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
           <div className="lg:col-span-4 space-y-6">
-            <InfoTop />
             <div className="block md:hidden">
               <InfoTopRight />
             </div>
-            <About />
-            <Highlights />
-            <InclusionExclusion />
+            <InfoTopLeft />
+
             <Itinerary />
           </div>
 
@@ -28,8 +23,12 @@ const InfoSection = () => {
             <div className="hidden md:block">
               <InfoTopRight />
             </div>
-            <TravelForm />
-            <ExclusivePackages />
+            <div className="hidden md:block">
+              <TravelForm></TravelForm>
+            </div>
+            <div className="hidden md:block">
+              <ExclusivePackages></ExclusivePackages>
+            </div>
           </div>
         </div>
       </div>
