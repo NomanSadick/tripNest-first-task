@@ -3,7 +3,7 @@ import InfoTopRight from "./InfoTopRight";
 import TravelForm from "./TravelForm";
 import ExclusivePackages from "./ExclusivePackages";
 import Itinerary from "./Itinerary";
-import InfoTopLeft from "@/app/data/InfoTopLeft";
+import InfoTopLeft from "@/components/InfoTopLeft";
 
 const InfoSection = () => {
   return (

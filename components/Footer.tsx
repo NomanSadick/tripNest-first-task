@@ -19,7 +19,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#042D3D] text-white py-10 px-6 md:px-10 lg:px-16 border-t border-gray-600 w-full">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {/* Logo & Description */}
           <div>
             <Image
@@ -30,7 +30,7 @@ export default function Footer() {
               className="object-cover w-[50%] sm:w-[40%] md:w-[60%]"
             />
             <span className="text-sm mt-2 block">Travel, your way!</span>
-            <p className="text-sm text-gray-300 leading-relaxed">
+            <p className="text-sm text-gray-300 leading-relaxed w-[100%] text-justify">
               TripNest simplifies travel planning, turning trips into
               personalized experiences. Founded by travel enthusiasts, we aim to
               make every journey enjoyable and stress-free for Bangladeshi
@@ -39,45 +39,45 @@ export default function Footer() {
           </div>
 
           {/* Our Company */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Our Company</h3>
-            <ul className="space-y-2 text-gray-300">
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  FAQs
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  Contact us
-                </Link>
-              </li>
-            </ul>
+          <div className="flex justify-between md:justify-evenly ">
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Our Company</h3>
+              <ul className="space-y-2 text-gray-300">
+                <li>
+                  <Link href="#" className="hover:text-white transition-colors">
+                    About Us
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#" className="hover:text-white transition-colors">
+                    FAQs
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#" className="hover:text-white transition-colors">
+                    Contact us
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+              <ul className="space-y-2 text-gray-300">
+                <li>
+                  <Link href="#" className="hover:text-white transition-colors">
+                    All Packages
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#" className="hover:text-white transition-colors">
+                    Visa Support
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </div>
 
-        
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2 text-gray-300">
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  All Packages
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">
-                  Visa Support
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-         
           <div>
             <h3 className="text-lg font-semibold mb-4">Stay Connected</h3>
             <ul className="space-y-3 text-gray-300 text-sm">
@@ -126,7 +126,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 bg-white rounded-lg p-1 ">
-           <Image
+          <Image
             src="/images/footer-1.svg"
             alt="footer"
             width={500}
