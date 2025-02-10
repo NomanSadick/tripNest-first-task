@@ -100,9 +100,9 @@ const Navbar: React.FC = () => {
 
         {/* Mobile Menu Button */}
         <div className="md:hidden">
-          <button className="text-gray-600 hover:text-blue-600 focus:outline-none">
+          <button className="text-gray-600 focus:outline-none">
             <svg
-              className="w-5 h-5"
+              className="w-5 h-5 text-orange-500"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
