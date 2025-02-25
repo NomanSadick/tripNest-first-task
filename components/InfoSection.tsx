@@ -12,16 +12,15 @@ const InfoSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
           <div className="lg:col-span-4 space-y-6">
             <div className="block md:hidden">
-              <InfoTopRight />
+              {/* <InfoTopRight /> */}
             </div>
             <InfoTopLeft />
-
             <Itinerary />
           </div>
 
           <div className="lg:col-span-1 space-y-6">
             <div className="hidden md:block">
-              <InfoTopRight />
+              {/* <InfoTopRight /> */}
             </div>
             <div className="hidden md:block">
               <TravelForm></TravelForm>

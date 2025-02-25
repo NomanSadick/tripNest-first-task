@@ -51,7 +51,7 @@ const NativeForm = () => {
   };
 
   return (
-    <div className="w-full flex justify-center items-center bg-white rounded-xl border mt-10">
+    <div className="w-full flex justify-center items-center bg-white rounded-xl border">
       <div className="w-[85%] mx-auto space-y-4">
         <p className="mt-4 mb-4 text-[#146B83] text-2xl font-semibold">Customize Your Trip</p>
         <form
