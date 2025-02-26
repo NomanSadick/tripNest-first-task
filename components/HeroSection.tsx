@@ -12,7 +12,7 @@ const HeroSection = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Left Image */}
-            <div className="relative w-full h-[175px] md:h-[400px] rounded-lg overflow-hidden">
+            <div className="relative w-full h-[175px] md:h-[407px] rounded-lg overflow-hidden">
               <Image
                 src="/images/left-img.png"
                 alt="left"

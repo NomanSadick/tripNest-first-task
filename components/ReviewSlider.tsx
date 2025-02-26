@@ -20,7 +20,7 @@ const ReviewSlider = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 4, 
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1280, 
@@ -44,12 +44,13 @@ const ReviewSlider = () => {
           Customer <span className="text-[#146B83]">Review</span>
         </h2>
 
-        <Slider {...settings}>
+       <div className="w-full overflow-hidden">
+       <Slider {...settings}>
           {ReviewsData.map((review) => (
-            <div key={review.id} className="p-2 ">
+            <div key={review.id} className="md:p-2 ">
               <div className="bg-white shadow-md rounded-lg p-6 border border-gray-200">
                 <FaQuoteLeft className="text-gray-100 text-4xl" />
-                <div className="flex space-x-1 mb-2">
+                <div className="flex gap-1 mb-2">
                   {Array.from({ length: review.rating }).map((_, i) => (
                     <FontAwesomeIcon
                       key={i}
@@ -78,6 +79,7 @@ const ReviewSlider = () => {
             </div>
           ))}
         </Slider>
+       </div>
       </div>
     </div>
   );
