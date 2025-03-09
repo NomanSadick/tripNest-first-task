@@ -3,6 +3,8 @@ import { Geist, Geist_Mono,Signika_Negative } from "next/font/google";
 import "./globals.css";
 
 
+
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

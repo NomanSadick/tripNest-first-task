@@ -6,7 +6,8 @@ import InfoSection from "@/components/InfoSection";
 import Navbar from "@/components/Navbar";
 import Navbar2 from "@/components/Navbar2";
 import ReviewSlider from "@/components/ReviewSlider";
-// import TourCard from "@/components/TourCard";
+import Tracking from "@/components/Tracking";
+import TourCard from "@/components/TourCard";
 
 export default function Home() {
   return (
@@ -14,7 +15,8 @@ export default function Home() {
       {/* <Navbar2 /> */}
       <Navbar />
       <HeroSection />
-      {/* <TourCard /> */}
+      <TourCard />
+      {/* <Tracking /> */}
       <Info />
       <InfoSection />
       <ReviewSlider />
