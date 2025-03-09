@@ -6,4 +6,5 @@ export interface TourCardInfo {
   currency: string;
   discount: string;
   image: string;
+  type: string
 }
