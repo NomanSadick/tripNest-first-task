@@ -1,5 +1,3 @@
-import type { TourCardInfo } from "../types/TourCard"
-
 export const TourCardData: TourCardInfo[] = [
   // Tour Packages
   {
@@ -8,7 +6,7 @@ export const TourCardData: TourCardInfo[] = [
     duration: "4 Days 3 Nights",
     price: 32200,
     currency: "BDT",
-    discount: "Up to 10%",
+    discount: "Up to 10%",  // Discount is available
     image: "/images/bg.jpg",
     type: "tour",
   },
@@ -18,7 +16,7 @@ export const TourCardData: TourCardInfo[] = [
     duration: "4 Days 3 Nights",
     price: 28500,
     currency: "BDT",
-    discount: "Up to 15%",
+    discount: "Up to 15%",  // Discount is available
     image: "/images/bg.jpg",
     type: "tour",
   },
@@ -28,7 +26,7 @@ export const TourCardData: TourCardInfo[] = [
     duration: "5 Days 4 Nights",
     price: 35000,
     currency: "BDT",
-    discount: "Up to 12%",
+    discount: "",  // No discount for this package
     image: "/images/bg.jpg",
     type: "tour",
   },
@@ -40,7 +38,7 @@ export const TourCardData: TourCardInfo[] = [
     duration: "E-Visa",
     price: 9500,
     currency: "BDT",
-    discount: "Up to 5%",
+    discount: "Up to 5%",  // Discount is available
     image: "/images/bg.jpg",
     type: "visa",
   },
@@ -50,7 +48,7 @@ export const TourCardData: TourCardInfo[] = [
     duration: "Tourist Visa",
     price: 12000,
     currency: "BDT",
-    discount: "Up to 8%",
+    discount: "Up to 8%",  // Discount is available
     image: "/images/bg.jpg",
     type: "visa",
   },
@@ -60,8 +58,8 @@ export const TourCardData: TourCardInfo[] = [
     duration: "Business Visa",
     price: 15000,
     currency: "BDT",
-    discount: "Up to 7%",
+    discount: "",  // No discount for this package
     image: "/images/bg.jpg",
     type: "visa",
   },
-]
+];
