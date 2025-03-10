@@ -40,10 +40,10 @@ const ExclusiveOffers = () => {
     const { onClick } = props;
     return (
       <button
-        className="z-10 bg-sky-400 rounded-full p-2 shadow-md sm:absolute sm:left-0 sm:top-1/2 sm:-translate-y-1/2 max-sm:static max-sm:mx-1 max-sm:mb-4 sm:mb-4"
+        className="z-10 bg-[#EC6809] rounded-full p-2 shadow-md sm:absolute sm:left-0 sm:top-1/2 sm:-translate-y-1/2 max-sm:static max-sm:mx-1 max-sm:mb-4 sm:mb-4"
         onClick={onClick}
       >
-        <ChevronLeft className="h-5 w-5 text-[#146B83]" />
+        <ChevronLeft className="h-5 w-5 text-[#fff]" />
       </button>
     );
   };
@@ -52,10 +52,10 @@ const ExclusiveOffers = () => {
     const { onClick } = props;
     return (
       <button
-        className="z-10 bg-red-300 rounded-full p-2 shadow-md sm:absolute sm:-right-0 sm:top-1/2 sm:-translate-y-1/2 max-sm:static max-sm:mx-1 max-sm:mb-4 sm:mb-4"
+        className="z-10 bg-[#EC6809] rounded-full p-2 shadow-md sm:absolute sm:-right-0 sm:top-1/2 sm:-translate-y-1/2 max-sm:static max-sm:mx-1 max-sm:mb-4 sm:mb-4"
         onClick={onClick}
       >
-        <ChevronRight className="h-5 w-5 text-[#146B83]" />
+        <ChevronRight className="h-5 w-5 text-[#fff]" />
       </button>
     );
   };
@@ -101,11 +101,11 @@ const ExclusiveOffers = () => {
 
         {/* Tabs */}
         <div className="flex justify-center sm:justify-end mb-6">
-          <div className="inline-flex bg-gray-100 rounded-full p-1">
+          <div className="inline-flex  bg-[#fff] rounded-full shadow-sm border border-gray-200">
             <button
               onClick={() => setActiveTab("all")}
               className={`px-4 py-2 rounded-full text-sm font-medium ${
-                activeTab === "all" ? "bg-orange-100 text-gray-800 shadow-sm" : "text-gray-600 hover:text-gray-800"
+                activeTab === "all" ? "bg-[#FFE9DA] text-gray-800 shadow-sm" : "text-gray-600 hover:text-gray-800"
               }`}
             >
               All
@@ -113,7 +113,7 @@ const ExclusiveOffers = () => {
             <button
               onClick={() => setActiveTab("tour")}
               className={`px-4 py-2 rounded-full text-sm font-medium ${
-                activeTab === "tour" ? "bg-orange-100 text-gray-800 shadow-sm" : "text-gray-600 hover:text-gray-800"
+                activeTab === "tour" ? "bg-[#FFE9DA] text-gray-800 shadow-sm" : "text-gray-600 hover:text-gray-800"
               }`}
             >
               Tour Package
@@ -121,7 +121,7 @@ const ExclusiveOffers = () => {
             <button
               onClick={() => setActiveTab("visa")}
               className={`px-4 py-2 rounded-full text-sm font-medium ${
-                activeTab === "visa" ? "bg-orange-100 text-gray-800 shadow-sm" : "text-gray-600 hover:text-gray-800"
+                activeTab === "visa" ? "bg-[#FFE9DA] text-gray-800 shadow-sm" : "text-gray-600 hover:text-gray-800"
               }`}
             >
               Visa
