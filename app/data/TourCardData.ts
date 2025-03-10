@@ -64,27 +64,4 @@ export const TourCardData: TourCardInfo[] = [
     image: "/images/bg.jpg",
     type: "visa",
   },
-
-  // Hotel Packages
-  {
-    id: 7,
-    destination: "Cox's Bazar",
-    duration: "3 Days 2 Nights",
-    price: 18000,
-    currency: "BDT",
-    discount: "Up to 20%",
-    image: "/images/bg.jpg",
-    type: "hotel",
-  },
-  {
-    id: 8,
-    destination: "Sylhet",
-    duration: "2 Days 1 Night",
-    price: 12500,
-    currency: "BDT",
-    discount: "Up to 15%",
-    image: "/images/bg.jpg",
-    type: "hotel",
-  },
 ]
-
