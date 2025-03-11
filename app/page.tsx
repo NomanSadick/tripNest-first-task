@@ -7,7 +7,7 @@ import Navbar from "@/components/Navbar";
 import Navbar2 from "@/components/Navbar2";
 import ReviewSlider from "@/components/ReviewSlider";
 import Tracking from "@/components/Tracking";
-import TourCard from "@/components/TourCard";
+// import TourCard from "@/components/TourCard";
 import TourCard2 from "@/components/TourCard";
 
 export default function Home() {
