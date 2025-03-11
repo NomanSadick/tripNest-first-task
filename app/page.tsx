@@ -7,8 +7,8 @@ import Navbar from "@/components/Navbar";
 import Navbar2 from "@/components/Navbar2";
 import ReviewSlider from "@/components/ReviewSlider";
 import Tracking from "@/components/Tracking";
-// import TourCard from "@/components/TourCard";
-import TourCard2 from "@/components/TourCard";
+import TourCard from "@/components/TourCard";
+import TourCard2 from "@/components/TourCard2";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <TourCard2 />
-      {/* <TourCard /> */}
+      <TourCard />
       {/* <Tracking /> */}
       <Info />
       <InfoSection />
