@@ -97,7 +97,7 @@ const ExclusiveOffers = () => {
     <div className="w-full mt-6 container-custom">
       <div className="flex flex-col">
         {/* Title */}
-        <h2 className="text-[#146B83] text-4xl font-semibold text-center">
+        <h2 className="text-[#146B83] text-2xl md:text-5xl font-semibold text-center mb-4">
           Exclusive Offers
         </h2>
 
