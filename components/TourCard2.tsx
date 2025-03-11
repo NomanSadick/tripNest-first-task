@@ -27,29 +27,29 @@ const ExclusiveOffers = () => {
         })
 
   // Custom arrow components for the slider
-  const PrevArrow = (props: any) => {
+  const PrevArrow = (props: { onClick?: () => void }) => {
     const { onClick } = props
     return (
-      <button
+      <div
         className="z-10 bg-red-300 rounded-full p-2 shadow-md sm:absolute sm:left-0 sm:top-1/2 sm:-translate-y-1/2 
                   max-sm:static max-sm:mx-1 max-sm:mb-4"
         onClick={onClick}
       >
         <ChevronLeft className="h-5 w-5 text-[#146B83]" />
-      </button>
+      </div>
     )
   }
   
-  const NextArrow = (props: any) => {
+  const NextArrow = (props: { onClick?: () => void }) => {
     const { onClick } = props
     return (
-      <button
+      <div
         className="z-10 bg-red-300 rounded-full p-2 shadow-md sm:absolute sm:-right-0 sm:top-1/2 sm:-translate-y-1/2
                   max-sm:static max-sm:mx-1 max-sm:mb-4"
         onClick={onClick}
       >
         <ChevronRight className="h-5 w-5 text-[#146B83]" />
-      </button>
+      </div>
     )
   }
   
