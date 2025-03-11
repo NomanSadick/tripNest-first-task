@@ -17,7 +17,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <TourCard2 />
-      <TourCard />
+      {/* <TourCard /> */}
       {/* <Tracking /> */}
       <Info />
       <InfoSection />

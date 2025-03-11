@@ -6,7 +6,7 @@ import { useState } from "react"
 import dynamic from "next/dynamic"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
-import { ChevronLeft, ChevronRight } from "lucide-react"
+import { FaArrowLeft, FaArrowRight  } from "react-icons/fa";
 import { TourCardData } from "@/app/data/TourCardData"
 
 // Dynamically import react-slick
@@ -35,7 +35,7 @@ const ExclusiveOffers = () => {
                   max-sm:static max-sm:mx-1 max-sm:mb-4"
         onClick={onClick}
       >
-        <ChevronLeft className="h-5 w-5 text-[#146B83]" />
+        <FaArrowLeft className="h-5 w-5 text-[#146B83]" />
       </div>
     )
   }
@@ -48,7 +48,7 @@ const ExclusiveOffers = () => {
                   max-sm:static max-sm:mx-1 max-sm:mb-4"
         onClick={onClick}
       >
-        <ChevronRight className="h-5 w-5 text-[#146B83]" />
+        <FaArrowRight className="h-5 w-5 text-[#146B83]" />
       </div>
     )
   }
